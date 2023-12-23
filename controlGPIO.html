@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control GPIO by Web</title>
+</head>
+<body>
+    <form action="/cgi-bin/testcgi.py", method="post">
+        開啟攝影機 :<br>
+        <input type="radio" name="LED" value="U">ON<br>
+        <input type="radio" name="LED" value="OFF">OFF<br>
+        <input type="submit" value="Submit" />
+    </form>
+    <img src="http://172.20.10.3:8080/?action=stream">
+</body>
+</html>
