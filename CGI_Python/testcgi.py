@@ -9,12 +9,13 @@ ip_addr = "http://172.20.10.3/"
 
 if __name__ == "__main__":
   form = cgi.FieldStorage()       #Get the form instance
-  DIRECT = form.getvalue('LED')   #Get the value from posted web form
+  uname = form.getvalue('uname')   #Get the value from posted web form
+  passwd = form.getvalue('psw')
   redirectURL = ip_addr+"controlGPIO.html"
   url_404 = ip_addr+"404page.html"
 
-  if DIRECT == "U":               #Decide the LED is on or off
-    #WAY.write(1)
+  if uname == "root" and passwd == '123456':               #Decide the LED is on or off
+    # WAY.write(1)
     print 'Content-Type: text/html'
     print 'Location: %s' % redirectURL
     print # HTTP says you have to have a blank line between headers and content
