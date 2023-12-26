@@ -55,10 +55,10 @@ server.listen(3000,function(){
 
       request({
           method: 'POST',
-          url: 'https://face4embeddedsystem.cognitiveservices.azure.com/face/v1.0/detect?returnFaceId=true&returnFaceAttributes=headPose,glasses,accessories',
+          url: 'https://ccc/face/v1.0/detect?returnFaceId=true&returnFaceAttributes=headPose,glasses,accessories',
           headers: {
               'Content-Type': 'application/json',
-              'Ocp-Apim-Subscription-Key': '308bf6c20b82436682bd384b89a124f7'
+              'Ocp-Apim-Subscription-Key': ''
           },
           body:data
 

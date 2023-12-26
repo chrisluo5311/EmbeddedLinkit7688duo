@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is demo page</title>
+    <style>
+        img {
+            border: 5px solid #555;
+            margin-top: 30px;
+            margin-left: 30px;
+        }
+        * {
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover {
+            background-color: #111;
+        }
+        button {
+            margin-left: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="http://172.20.10.3:8080/homepage.html">Home</a></li>
+        <li><a href="#news">Linkit7688 System info</a></li>
+        <li><a href="http://172.20.10.3:8080/anytest.html">Test</a></li>
+        <li><a href="http://172.20.10.3:8080/demo.html">Demo</a></li>
+    </ul>
+
+    <img src="http://172.20.10.3:8080/?action=stream" width="320" height="240" >
+
+    <form action="/cgi-bin/beee.py">
+        <button name="bee" value="1">峰鳴器
+
+        </button>
+
+    </form>
+</body>
+</html>
