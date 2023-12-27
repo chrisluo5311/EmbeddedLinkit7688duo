@@ -45,6 +45,18 @@
         button {
             margin-left: 30px;
         }
+
+        .column {
+            float: left;
+            width: 30%;
+        }
+
+/* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
     </style>
 </head>
 
@@ -55,14 +67,23 @@
         <li><a href="http://172.20.10.3:8080/anytest.html">Test</a></li>
         <li><a href="http://172.20.10.3:8080/demo.html">Demo</a></li>
     </ul>
-
-    <img src="http://172.20.10.3:8080/?action=stream" width="320" height="240" >
-
+    <div class="row">
+        <div class="column">
+            <img src="http://172.20.10.3:8080/?action=stream" width="320" height="240" >
+        </div>
+        <div class="column">
+            <p>ABCD</p>
+        </div>
+    </div>
+    
     <form action="/cgi-bin/beee.py">
         <button name="bee" value="1">峰鳴器
 
         </button>
 
     </form>
+    
+    
+
 </body>
 </html>
