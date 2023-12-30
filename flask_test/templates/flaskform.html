@@ -6,7 +6,7 @@
     <title>Any kinds of test</title>
 </head>
 <body>
-    <form action="/cgi-bin/ledtest.py", method="post">
+    <form method='post'action="{{ url_for("blink")}}">
         開起led燈泡 :<br>
         <input type="radio" name="LED" value="U">ON<br>
         <input type="radio" name="LED" value="OFF">OFF<br>
