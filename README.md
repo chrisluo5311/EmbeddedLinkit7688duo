@@ -30,29 +30,43 @@
 ---
 <h3>Figure:</h3>
 
-
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Figure1.jpg" width="600">
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Figure2.jpg" width="600">
 
 
 ---
 <h3>Component Diagram:</h3>
-
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/component_diagram.jpg" width="600">
 
 
 
 - Raspberry Pi 400:
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/pi400.jpg" width="300">
+
 - LCD1602 I2C:
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/LCDI2C.jpg" width="300">
+  
 - Keypad: 4*4
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/keypad.jpg" width="300">
+
 - LED:
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/LED.jpg" width="200">
+
 - Active Buzzer
-- Webcam: RAZER KIYO X 
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/activebuzzer.jpg" width="300">
+  
+- Webcam: RAZER KIYO X
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/webcam.jpg" width="200">
 
 ---
 
 <h3>Challenges</h3>
+
 1. The hardware's built-in Python version is 2.7 with outdated pip and setup packages, preventing software package installations or updates. Many packages now require Python 3.0 or higher, so the built-in mraa library is used for control.
 2. CGI Python's redirection to another webpage is cumbersome, requiring direct HTML structure printing. The webpage was later moved to a Raspberry Pi 400, with the Linkit 7688 Duo handling only data transmission.
 3. The latest Arduino IDE version is incompatible with the MediaTek board. Installing a community-provided json and zip file in Arduino IDE version 1.6.5 resolved this issue.
-4. Due to version constraints, the MQTT WiFi kit couldn't connect to a mobile hotspot. Instead, direct communication between Linkit Smart 7688duo and Pi400 was established for signal transmission.
+4. Due to version constraints, the MQTT WiFi kit couldn't connect to a mobile hotspot. Instead, direct communication between Linkit Smart 7688duo and Pi400 was established for signal transmission. 
+
 
 ---
 <h3>Keypad Code</h3>
