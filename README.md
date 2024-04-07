@@ -370,6 +370,9 @@ Video Demo 2 : [keypad](https://youtube.com/shorts/u9iraENu_ps)
 ---
 <h2>PDF & PowerPoint </h2>
 
+PDF : [pdf](https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/ProcessGroup_4_Employee%20Access%20Control%20System.pdf)
+
+PowerPoint: [powerpoint](https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Employee%20Access%20Control%20System%20%20Group%204.pdf)
 
 
 ---
