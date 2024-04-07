@@ -2,11 +2,14 @@
 
 <div>
 <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white">
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/Raspberry%20Pi-A22846?style=for-the-badge&logo=Raspberry%20Pi&logoColor=white">
 </div>
 
 ---
 
-<h3 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbsp專案介紹: </h3>
+<h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbsp專案介紹: </h2>
 
 #### Control and manage personnel entering and exiting a specific area to ensure the safety of the area and protect property.
 
@@ -17,7 +20,7 @@
 
 ---
 
-<h3>Software version:</h3>
+<h2>Software version:</h2>
 
 | Software | Version |
 |:--------:|:--------|
@@ -28,14 +31,14 @@
 |Python| 2.7     |
 
 ---
-<h3>Figure:</h3>
+<h2>Figure:</h2>
 
 <img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Figure1.jpg" width="600">
 <img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Figure2.jpg" width="600">
 
 
 ---
-<h3>Component Diagram:</h3>
+<h2>Component Diagram:</h2>
 <img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/component_diagram.jpg" width="600">
 
 
@@ -60,7 +63,7 @@
 
 ---
 
-<h3>Challenges</h3>
+<h2>Challenges</h2>
 
 1. The hardware's built-in Python version is 2.7 with outdated pip and setup packages, preventing software package installations or updates. Many packages now require Python 3.0 or higher, so the built-in mraa library is used for control.
 2. CGI Python's redirection to another webpage is cumbersome, requiring direct HTML structure printing. The webpage was later moved to a Raspberry Pi 400, with the Linkit 7688 Duo handling only data transmission.
@@ -69,7 +72,7 @@
 
 
 ---
-<h3>Keypad Code</h3>
+<h2>Keypad Code</h2>
 
 ```Arduino
 #include "Adafruit_Keypad.h"
@@ -135,7 +138,7 @@ void loop() {
 }
 ```
 
-<h3>Demo Code</h3>
+<h2>Demo Code</h2>
 
 ```Python
 from flask import Flask, request, render_template,redirect
@@ -192,7 +195,7 @@ def blink():
 app.run()
 ```
 
-<h3>HTML</h3>
+<h2>HTML</h2>
 
 ```HTML
 <!DOCTYPE html>
@@ -214,7 +217,7 @@ app.run()
 </html>
 ```
 
-<h3>Arduino</h3>
+<h2>Arduino</h2>
 
 ```Arduino
 #include "Adafruit_Keypad.h"
@@ -352,17 +355,25 @@ void clearData() {
 }
 ```
 
-Result Presentation:
-<img src="">
+<h2>Result Presentation:</h2>
+
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Result1.jpg" width="400">
+
+<img src="https://github.com/chrisluo5311/EmbeddedLinkit7688duo/blob/main/static/Result2.jpg" width="400">
+
+Video Demo 1 : [webcam](https://youtu.be/uD_uT3pB8uw)
+
+Video Demo 2 : [keypad](https://youtube.com/shorts/u9iraENu_ps)
+
 
 
 ---
-<h3>PDF & PowerPoint </h3>
+<h2>PDF & PowerPoint </h2>
 
 
 
 ---
-<h3>Reference</h3>
+<h2>Reference</h2>
 
 |                           Name                           |        URL         |      Notes      |
 |:--------------------------------------------------------:|:------------------:|:---------------:|
