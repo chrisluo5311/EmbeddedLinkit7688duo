@@ -16,7 +16,7 @@
 
 |    System     | Introduction                                                                                   | 
 |:-------------:|:-----------------------------------------------------------------------------------------------|
-|   End User    | The employee uses the Keypad to enter the password, and the user-entered password is displayed on the LCD screen. If the password is wrong, the buzzer will sound for 0.5 seconds as a reminder and Incorrect will be displayed on the LCD screen. If the password is correct, Correct will be displayed on the LCD screen. |
+|   End User    | The employee uses the Keypad to enter the password, and the password is displayed on the LCD screen. If the password is wrong, the buzzer will sound for 0.5 seconds as a reminder and "Incorrect" word will be displayed on the LCD screen. If the password is correct, "Correct" word will be displayed on the LCD screen. |
 | Administrator | Administrators can monitor the person who enters the password by browsing the real-time image screen through the video streaming service on the web interface. You can also use the on/off input keys of the web interface to sound the buzzer to drive away criminals. |
 
 ---
