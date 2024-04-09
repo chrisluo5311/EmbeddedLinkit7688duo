@@ -9,7 +9,7 @@
 
 ---
 
-<h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbsp專案介紹: </h2>
+<h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbspProject Introduction and Objectives: </h2>
 
 ### Control and manage personnel entering and exiting a specific area to ensure the safety of the area and protect property.
 
